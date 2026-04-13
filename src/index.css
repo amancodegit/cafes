@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-restaurant-primary: var(--theme-color);
+  --color-restaurant-secondary: var(--secondary-color);
+  --color-restaurant-warm: #FAF9F6;
+  --color-restaurant-dark: #1A1A1A;
+}
