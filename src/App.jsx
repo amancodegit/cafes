@@ -6,7 +6,7 @@ import AllTestimonials from './pages/AllTestimonials';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cafes">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<AllDishes />} />
